@@ -33,9 +33,9 @@ public class Navigation{
       // It now only has to deal with "fully parsed" input (i.e. resolved to Java objects)
       List<City> shortestPath = computeShortestPathBetweenCities(startCity, targetCity, region);
 
-      System.out.println(shortestPath);
+      System.out.print(shortestPath);
     } catch (IOException e) {
-      System.out.println("ERROR");
+      System.out.print("ERROR");
     }
   }
 
