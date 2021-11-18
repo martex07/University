@@ -35,7 +35,7 @@ public class Navigation{
 
       System.out.println(shortestPath);
     } catch (IOException e) {
-      System.out.println("ERROR");
+      System.out.println(e);
     }
   }
 
